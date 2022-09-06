@@ -1,0 +1,18 @@
+.container{
+    height: 50px;
+    background: #242526;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+.listItem{
+    display: inline;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #b1b1b1;
+    cursor: pointer;
+}

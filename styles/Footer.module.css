@@ -1,0 +1,63 @@
+.container {
+    height: 250px;
+    border-top: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    padding: 50px;
+    background: #242526;
+  }
+  
+  .title {
+    font-weight: 400;
+    color: white;
+    background-color: #242526;
+    width: max-content;
+    padding: 5px;
+    transition: all 1s ease;
+  }
+  
+  .title:hover {
+    background-color: white;
+    color: #242526;
+  }
+  
+  .linkTitle {
+    text-decoration: underline;
+    transform-origin: left;
+    transition: all 1s ease;
+    color: #fff;
+  }
+  
+  .linkTitle:hover {
+    transform: scale(1.1);
+  }
+  
+  .link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .linkText{
+      margin-right: 20px;
+      cursor: pointer;
+  }
+  
+  .cardL {
+    flex: 2;
+  }
+  
+  .cardS {
+    flex: 1;
+    color: #fff;
+}
+  
+  .cardItem {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: right;
+  }
+  

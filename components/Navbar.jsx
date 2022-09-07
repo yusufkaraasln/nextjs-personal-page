@@ -6,19 +6,19 @@ function Navbar() {
     <Link href={"/"}>steven.</Link>
     <ul className={styles.list}>
       <li className={styles.listItem}>
-        <Link href="products/desing">DESING</Link>
+        <Link href="products/desing">MAC</Link>
       </li>
       <li className={styles.listItem}>
-        <Link href="products/development">DEVELOPMENT</Link>
+        <Link href="products/development">iMAC</Link>
       </li>
       <li className={styles.listItem}>
-        <Link href="products/architect">ARCHITECT</Link>
+        <Link href="products/architect">iPHONE</Link>
       </li>
       <li className={styles.listItem}>
-        <Link href="products/pricing">PRICING</Link>
+        <Link href="products/pricing">iPAD</Link>
       </li>
       <li className={styles.listItem}>
-        <Link href="products/deploy">DEPLOY</Link>
+        <Link href="products/deploy">MACBOOK</Link>
       </li>
 
     </ul>
